@@ -18,11 +18,14 @@ The Admin Dashboard is a static webpage that mimics the structure of a typical a
 
 ## Preview
  
-<p align="center">
-  <img src="./assets/preview-images/dashboard-desktop.png" alt="Desktop view" width="32%">
-  <img src="./assets/preview-images/dashboard-tablet.png" alt="Tablet view" width="32%">
-  <img src="./assets/preview-images/dashboard-small.png" alt="Small Screen view" width="32%">
-</p>
+### Desktop View  
+<img src="./assets/preview-images/dashboard-desktop.png" alt="Desktop view" width="80%">
+
+### Small Screen 1 
+<img src="./assets/preview-images/dashboard-tablet.png" alt="Tablet view" width="60%">
+
+### Small Screen 2 
+<img src="./assets/preview-images/dashboard-small.png" alt="Small view" width="40%">
 
 
 ## What I Learned
