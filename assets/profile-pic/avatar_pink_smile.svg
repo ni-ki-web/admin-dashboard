@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="64" ry="64" fill="#FF7DAE"/>
+  <!-- Head -->
+  <circle cx="64" cy="66" r="36" fill="#FFE3C6"/>
+  <!-- Fringe hair -->
+  <path d="M32 60 C32 42, 96 42, 96 60 C86 52, 42 52, 32 60 Z" fill="#5B3A29"/>
+  <!-- Eyes (happy) -->
+  <path d="M42 70 C48 66, 52 66, 58 70" stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 70 C76 66, 80 66, 86 70" stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Mouth -->
+  <path d="M46 86 C58 98, 70 98, 82 86" stroke="#8C2C2C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Blush -->
+  <circle cx="44" cy="80" r="5" fill="#FFC0CB" opacity="0.7"/>
+  <circle cx="84" cy="80" r="5" fill="#FFC0CB" opacity="0.7"/>
+</svg>

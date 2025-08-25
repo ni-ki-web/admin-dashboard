@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="64" ry="64" fill="#43A047"/>
+  <!-- Head -->
+  <circle cx="64" cy="68" r="36" fill="#FCD9B5"/>
+  <!-- Hat -->
+  <rect x="34" y="38" width="60" height="16" rx="8" fill="#263238"/>
+  <path d="M44 36 H84 C86 36 92 44 92 44 H36 C36 44 42 36 44 36 Z" fill="#37474F"/>
+  <!-- Eyes -->
+  <circle cx="50" cy="72" r="4" fill="#222"/>
+  <circle cx="78" cy="72" r="4" fill="#222"/>
+  <!-- Mouth -->
+  <path d="M52 90 C64 96, 64 96, 76 90" stroke="#B34B4B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Beard -->
+  <path d="M40 82 C44 104, 84 104, 88 82 C80 94, 48 94, 40 82 Z" fill="#6D4C41" opacity="0.9"/>
+</svg>

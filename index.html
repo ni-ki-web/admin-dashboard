@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Roboto Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Link to CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <img src="assets/svg-icons/view-dashboard.svg" alt="dashboard-icon" id="logo-icon">
+                <h2 class="logo-text">Dashboard</h2>
+            </div>
+            <div class="sidebar-nav">
+                <div class="nav-top">
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/home.svg" alt="home-icon" class="nav-icon">
+                        <p class="nav-text">Home</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/account-details.svg" alt="profile-icon" class="nav-icon">
+                        <p class="nav-text">Profile</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/history.svg" alt="history-icon" class="nav-icon">
+                        <p class="nav-text">History</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/file-multiple.svg" alt="tasks-icon" class="nav-icon">
+                        <p class="nav-text">Tasks</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/account-group.svg" alt="communities-icon" class="nav-icon">
+                        <p class="nav-text">Communities</p>
+                    </div>
+                </div>
+                <div class="nav-bottom">
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/cog.svg" alt="" class="nav-icon">
+                        <p class="nav-text">Settings</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/help-box.svg" alt="" class="nav-icon">
+                        <p class="nav-text">Support</p>
+                    </div>
+                    <div class="nav-item">
+                        <img src="assets/svg-icons/shield-check.svg" alt="" class="nav-icon">
+                        <p class="nav-text">Privacy</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Main Content Area-->
+        <main class="main-content-container">
+            <!-- Header -->
+            <header class="header">
+                <!-- Header Top -->
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <button class="hamburger" aria-label="Toggle menu">☰</button>
+                        <img src="assets/svg-icons/magnify.svg" alt="search-icon" class="header-icon">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="header-top-right">
+                        <img src="assets/svg-icons/bell-ring-outline.svg" alt="bell-icon" class="header-icon" id="bell">
+                        <img src="assets/profile-pic/avatar_yellow_cat.svg" alt="header-top-profile" class="avatar user-profile">
+                        <span class="username">Morgan Oakley</span>
+                    </div>
+                </div>
+                <!-- Header Bottom -->
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <div class="profile">
+                            <img src="assets/profile-pic/avatar_yellow_cat.svg" alt="large-profile" class="avatar profile-avatar">
+                        </div>
+                        <div class="greeting">
+                            <p>Hi there,</p>
+                            <h2>Morgan Oakley (@morgan)</h2>
+                        </div>
+                    </div>
+                    <div class="header-bottom-right">
+                        <button class="action-btn">
+                            <img src="assets/svg-icons/plus.svg" alt="New" class="button-icon">
+                            <span class="label">New</span>
+                        </button>
+                        <button class="action-btn">
+                            <img src="assets/svg-icons/upload.svg" alt="Upload" class="button-icon">
+                            <span class="label">Upload</span>
+                        </button>
+                        <button class="action-btn">
+                            <img src="assets/svg-icons/share.svg" alt="Share" class="button-icon">
+                            <span class="label">Share</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <section class="content">
+                <!-- Left: Projects -->
+                <div class="content-left">
+                    <h2>Your Projects</h2>
+                    <div class="projects-grid">
+                        <div class="card">
+                            <h3 class="project-title">Super Cool Project</h3>
+                            <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Less Cool Project</h3>
+                            <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Impossible App</h3>
+                            <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Easy Peasy App</h3>
+                            <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Ad Blocker</h3>
+                            <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Money Maker</h3>
+                            <p class="project-detail">Add a brief description about the project here...</p>
+                            <div class="icon-container">
+                                <img src="assets/svg-icons/star-plus-outline.svg" alt="star-icon" class="card-icon">
+                                <img src="assets/svg-icons/eye-plus-outline.svg" alt="eye-icon" class="card-icon">
+                                <img src="assets/svg-icons/source-fork.svg" alt="fork-icon" class="card-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Announcements + Trending -->
+                <div class="content-right">
+                    <div class="content-right-section">
+                        <h2>Announcements</h2>
+                        <div class="card">
+                            <section class="announcement">
+                                <h4 class="announcement-title">Site Maintenance</h4>
+                                <p class="announcement-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            </section>
+                            <section class="announcement">
+                                <h4 class="announcement-title">Community Share Day</h4>
+                                <p class="announcement-detail">Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                            </section>
+                            <section class="announcement">
+                                <h4 class="announcement-title">Updated Privacy Policy</h4>
+                                <p class="announcement-detail">Write a bit about the announcement here, just a few sentences...</p>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="content-right-section">
+                        <h2>Trending</h2>
+                        <div class="card">
+                            <div class="trending-persona">
+                                <div class="persona-profile">
+                                    <img src="assets/profile-pic/avatar_blue_circle.svg" alt="@tegan" class="avatar persona-avatar">
+                                </div>
+                                <div class="persona-name">
+                                    <p class="persona-id">@tegan</p>
+                                    <p class="persona-project">World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="trending-persona">
+                                <div class="persona-profile">
+                                    <img src="assets/profile-pic/avatar_yellow_cat.svg" alt="@morgan" class="avatar persona-avatar">
+                                </div>
+                                <div class="persona-name">
+                                    <p class="persona-id">@morgan</p>
+                                    <p class="persona-project">Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="trending-persona">
+                                <div class="persona-profile">
+                                    <img src="assets/profile-pic/avatar_green_hat.svg" alt="@kendall" class="avatar persona-avatar">
+                                </div>
+                                <div class="persona-name">
+                                    <p class="persona-id">@kendall</p>
+                                    <p class="persona-project">Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="trending-persona">
+                                <div class="persona-profile">
+                                    <img src="assets/profile-pic/avatar_pink_smile.svg" alt="@alex" class="avatar persona-avatar">
+                                </div>
+                                <div class="persona-name">
+                                    <p class="persona-id">@alex</p>
+                                    <p class="persona-project">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
